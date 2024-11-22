@@ -22,7 +22,7 @@ byteorder = "1.2.7"
 crc = "1.8.1"
 failure = "0.1.5"
 hex-slice = "0.1.4"
-serialport = "4.2.0"
+serialport = { version = "4.2.0", default-features = false }
 
 [dev-dependencies]
 ctrlc = "3.2.5"
